@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    //Descripcion
+    <EditText
+        android:id="@+id/EditTextDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción del evento"
+        android:inputType="textImeMultiLine"
+        />
+    //Fecha
+    <EditText
+        android:id="@+id/EditTextFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="dd/mm/yyyy"
+        android:inputType="date"
+        />
+    //Hora
+    <EditText
+        android:id="@+id/EditTextHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="00:00"
+        android:inputType="time"
+        />
+    //Lugar
+    <EditText
+        android:id="@+id/EditTextLugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lugar del evento"
+
+        />
+
+    //BOTON PARA INSERTAR
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insertar"
+        android:id="@+id/btnInser"/>
+    //BOTON PARA SINCRONIZAR INFO A FIREBASE
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sincronizar a firebase"
+        android:id="@+id/btnSinc"/>
+
+    //LISTA DE INSERSIONES
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Lista"/>
+
+</LinearLayout>

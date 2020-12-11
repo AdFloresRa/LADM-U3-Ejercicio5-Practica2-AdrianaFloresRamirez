@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "513641405485",
+    "project_id": "ladm-u3-ejercicio5",
+    "storage_bucket": "ladm-u3-ejercicio5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513641405485:android:6857545365dc70319aeca4",
+        "android_client_info": {
+          "package_name": "mx.tecnm.ladm_u3_ejercicio5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513641405485-6cmth9qis7s7ppsuvagm0b3btj9mogrj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mx.tecnm.ladm_u3_ejercicio5",
+            "certificate_hash": "b971b9eca50b6f54071d2f200b415b095327de8f"
+          }
+        },
+        {
+          "client_id": "513641405485-eft9t4o2iqe666gogvechqmipden20ra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAWf-uJ1qzGP6YMcb1tlk7zJNU8HuJZw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513641405485-eft9t4o2iqe666gogvechqmipden20ra.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
